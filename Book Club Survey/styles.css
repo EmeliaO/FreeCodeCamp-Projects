@@ -5,7 +5,6 @@ body {
   color: white;
   margin: 0;
 }
-
 body::before {
   content: "";
   position: fixed;
@@ -16,7 +15,23 @@ body::before {
   z-index: -1;
   background-color: thistle;
 }
-
 #title {
-  font-size: center;
+  font-size: 3rem;
+}
+.description-center {
+  text-align: center;
+  font-size: 1.5rem;
+}
+h1 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+p {
+  font-size: 1.2rem;
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
