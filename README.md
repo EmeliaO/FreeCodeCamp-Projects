@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @EmeliaO
+- 👀 I’m interested in learning skills that will help me as a Technical Writer.
+- 🌱 I’m currently learning HTML, CSS, and Javascript.
+- 💞️ I’m looking to collaborate on open source projects and develop best practice for coding in the professional world!
