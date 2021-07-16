@@ -73,13 +73,13 @@ button {
 .clue {
   margin-left: o.25rem;
   font-size: 0.9rem;
-  color: lightcoral;
+  color: purple;
 }
 .text-center {
   text-align: center;
 }
 form {
-  background: pink;
+  background: palevioletred;
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
 }
