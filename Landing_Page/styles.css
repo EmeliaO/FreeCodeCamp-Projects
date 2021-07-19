@@ -1,0 +1,21 @@
+#header-img {
+  max-width: 100px;
+  height: 100px;
+}
+header {
+  display: flex;
+  width: 1600px;
+  max-height: 200%;
+  align-items: center;
+  position: fixed;
+}
+nav {
+  width: 200%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  color: tomato;
+  width: 600px;
+  justify-content: space-around;
+}
