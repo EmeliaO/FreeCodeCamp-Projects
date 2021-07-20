@@ -2,61 +2,147 @@
 <html lang="en">
   <head>
     <link href="styles.css" rel="stylesheet" type="text/css" />
-    <title>African Beauty landing page</title>
+    <title>Product Landing page</title>
     <meta charset="utf-8" />
   </head>
 
   <body>
-    <header id="header">
-      <img
-        id="header-img"
-        src="https://fraternitysororitysvg.com/assets/images/products/Black-Queen-With-Beautiful-Purple-Headwrap.png"
-        alt="logo"
-      />
-      <nav id="nav-bar">
-        <ul>
-          <li><a class="nav-link" href="#our-story">Our Story</a></li>
-          <li><a class="nav-link" href="#fabric-design">Fabric Design</a></li>
-          <li><a class="nav-link" href="#body-products">Body Products</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="form-group">
-      <h2>Support local Ghanaian products</h2>
-      <form
-        id="form"
-        action="https://www.freecodecamp.com/email-submit"
-        name="email"
-      >
-        <input
-          id="email"
-          type="email"
-          name="email"
-          placeholder="Enter your email address"
+    <div class="main">
+      <header id="header">
+        <img
+          id="header-img"
+          src="https://fraternitysororitysvg.com/assets/images/products/Black-Queen-With-Beautiful-Purple-Headwrap.png"
+          alt="logo"
         />
-        <input id="submit" type="submit" name="submit" />
-      </form>
+        <h1>Oba Yaa's Woho3fe</h1>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#our-story">Our Story</a></li>
+            <li><a class="nav-link" href="#fabric-design">Fabric Design</a></li>
+            <li><a class="nav-link" href="#body-products">Body Products</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container-subscribe">
+        <h2>Support local Ghanaian products</h2>
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          name="email"
+        >
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your email address"
+          />
+          <input id="submit" type="submit" value="Subscribe" />
+        </form>
+      </div>
+
+      <section id="our-story" class="container">
+        <div class="our-story-wrapper">
+          <div class="our-story-icon">
+            <i class="fa fa-book"></i>
+          </div>
+          <div class="our-story-text">
+            <h3>Our Vision and Journey</h3>
+            <p>
+              Our mission is to provide oraganc, naturally sourced, and homemade
+              African fabrics and beauty products.
+            </p>
+          </div>
+        </div>
+
+        <div class="our-story-wrapper">
+          <div class="our-story-icon">
+            <i class="fas fa-tshirt"></i>
+          </div>
+          <div class="our-story-text">
+            <h3 id="fabric-design">Customizable Anakra Frabric</h3>
+            <p>
+              Pick from our selection of hand-crafted ankara fabrics. You can
+              also customize fabrics by picking your own color patterns.
+            </p>
+          </div>
+        </div>
+
+        <div class="our-story-wrapper">
+          <div class="our-story-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <div class="our-story-text">
+            <h3 id="body-products">Organic-Handmade Shea Butter</h3>
+            <p>
+              Sometimes simplicity makes all the difference. Enjoy our Shea
+              Butter products made with organic, hand-sourced Shea ButteR nuts
+              in the land of GhanaWe wanted a platform that encouraged the sale
+              of authentic Ghanaian products.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/r0qAk9o_5Fs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="pricing">
+        <div class="container pricing-wrapper">
+          <div class="pricing-box">
+            <h4>VISITOR PACKAGE</h4>
+            <p class="price">$50</p>
+            <p>lorem ipsun</p>
+            <p>lorem ipsun</p>
+            <p>lorem ipsun dolor</p>
+            <p>lorem ipsun</p>
+            <a href="" class="btn">Select</a>
+          </div>
+
+          <div class="pricing-box">
+            <h4>SNOW BIRD PACKAGE</h4>
+            <p class="price">$75</p>
+            <p>lorem ipsun</p>
+            <p>lorem ipsun</p>
+            <p>lorem ipsun dolor</p>
+            <p>lorem ipsun</p>
+            <a href="" class="btn">Select</a>
+          </div>
+
+          <div class="pricing-box">
+            <h4>CITIZEN PACKAGE</h4>
+            <p class="price">$100</p>
+            <p>lorem ipsun</p>
+            <p>lorem ipsun</p>
+            <p>lorem ipsun dolor</p>
+            <p>lorem ipsun</p>
+            <a href="" class="btn">Select</a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-copyright">
+          <p>Copyright 2021, African Beauty</p>
+        </div>
+      </footer>
     </div>
-
-    <section id="our-story">Customize your own Anakra Frabric</section>
-    <section id="fabric-design">
-      The vision we have for the company and why we started this journey.
-    </section>
-    <section id="body-products">
-      Try our organic body creams with products grown in the heart of Africa.
-      <iframe
-        id="video"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/r0qAk9o_5Fs"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </section>
-
-    <h1>AFRICAN BEAUTY</h1>
   </body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
