@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap");
 
+html,
 body {
   font-family: "nunito";
   color: cornsilk;
@@ -16,47 +17,76 @@ body {
   top: 0px;
   left: 0px;
   color: black;
-  background-color: burlywood;
   padding: 75px 0px;
+  border-right: solid;
+  background-color: burlywood;
+  border-color: black;
 }
-#navbar header {
+header {
+  color: black;
+  margin: 10px;
   font-size: 3vw;
-  font-weight: bold;
+  font-weight: thin;
   text-align: center;
   margin-top: -50px;
 }
-#navbar a {
-  color: black;
-  text-decoration: none;
-}
-#navbar li {
-  list-style: none;
-  text-decoration: none;
+#main-doc header {
+  text-align: left;
+  margin: 0px;
 }
 
 #navbar ul {
   height: 88%;
   padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
-.nav-link {
-  padding: 6rem 2rem;
+#navbar li {
+  color: brown;
+  border-top: 1px solid;
+  position: relative;
+  width: 100%;
+}
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: black;
 }
 #main-doc {
-  text-align: left;
+  margin-left: 310px;
+  padding: 20px;
   margin-left: 0px;
 }
-
 section {
-  padding: 2rem 2rem;
-  border-radius: 2rem;
-  width: 500px;
-  margin: auto;
+  margin-left: 250px;
+}
+
+section article {
+  color: white;
+  margin: 30px;
+  font-size: 0.9em;
+}
+section li {
+  margin: 15px opx opx 20px;
 }
 section header {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
   letter-spacing: 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  line-height: 2;
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 /* Portrait and Landscape */
