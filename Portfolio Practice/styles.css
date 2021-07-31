@@ -1,34 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
-  margin: 0;
-  padding: 0;
-}
-* *::before *::after {
-  box-sizing: inherit;
-}
-
-html {
   box-sizing: border-box;
-  font-size: 10px;
-  scroll-behavior: smooth;
 }
 
-/* 1200px / 16px = 75em */
-@media (max-width: 75em) {
-  html {
-    font-size: 60%;
-  }
+body {
+  background-color: #000f08; /* 2364AA BED558 000F08 AF5D63 EE964B */
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin: 0;
 }
 
-/*980 / 16px = 61.25em */
-@media (max-width: 61.25em) {
-  html {
-    font-size: 58%;
-  }
+nav {
+  background-color: #bed558;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
 }
 
-/* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
-  html {
-    font-size: 55%;
-  }
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+}
+
+header {
+  background-image: url(https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+footer {
+  background-color: #bed558;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer .fa-heart {
+  color: red;
 }
