@@ -103,11 +103,11 @@ section p {
 
 footer {
   background-color: #bed558;
-  color: #fff;
+  color: #000;
   padding: 10px;
   text-align: center;
 }
 
 footer .fa-heart {
-  color: red;
+  color: #2364aa;
 }
