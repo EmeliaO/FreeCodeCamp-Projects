@@ -17,16 +17,25 @@ nav {
   display: flex;
   justify-content: flex-end;
   padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 nav a {
   color: #fff;
-  margin-left: 20px;
+  margin-left: 30px;
   text-decoration: none;
 }
 
 nav li {
   list-style: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -69,6 +78,10 @@ header p {
   margin: 0;
 }
 
+#survey-img {
+  max-width: 62%;
+}
+
 section {
   padding: 30px;
   text-align: center;
@@ -82,6 +95,10 @@ section p {
   margin-top: 0;
 }
 
+.project p {
+  font-size: 30px;
+}
+
 .bg-blue {
   background-color: #2364aa;
   color: #fff;
@@ -89,6 +106,7 @@ section p {
 
 .social-ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
   padding: 0;
@@ -96,9 +114,17 @@ section p {
 }
 
 .social-ul a {
+  border-radius: 50%;
+  border: 3px solid #fff;
   color: #fff;
-  font-size: 30px;
-  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin: 5px 10px;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
 }
 
 footer {
@@ -110,4 +136,10 @@ footer {
 
 footer .fa-heart {
   color: #2364aa;
+}
+
+@media (max-width: 440px) {
+  section {
+    padding: 20px;
+  }
 }
